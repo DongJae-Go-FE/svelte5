@@ -6,3 +6,4 @@
 실시간 바인드 즉 onChange
 <Input bind:value={message} />
 <p>{message}</p>
+<a href="/inspect">6단계</a>
