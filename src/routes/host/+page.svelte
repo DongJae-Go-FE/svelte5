@@ -7,3 +7,6 @@
 <my-stepper ondecrement={() => (count -= 1)} onincrement={() => (count += 1)}></my-stepper>
 
 <p>count: {count}</p>
+
+
+<a href="/if">8단계</a>
