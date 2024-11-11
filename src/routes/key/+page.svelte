@@ -11,3 +11,5 @@
 {#key count}
 	<div class="h-8 w-8 bg-fuchsia-100" transition:fade>{count}</div>
 {/key}
+
+<a href="/await">11단계</a>
