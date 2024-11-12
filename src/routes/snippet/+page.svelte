@@ -23,7 +23,6 @@
 		}
 	];
 
-
 	let { message = `it's great to see you!` } = $props();
 </script>
 
@@ -47,7 +46,6 @@
 	{/if}
 {/each}
 
-
 이런식으로 스코프도 가능
 {#snippet hello(name: string)}
 	<p>hello {name}! {message}!</p>
@@ -55,7 +53,7 @@
 
 {@render hello('alice')}
 {@render hello('bob')}
-
+<a href="/html">12단계</a>
 <style>
 	h1 {
 		font-size: 2em;
