@@ -18,6 +18,20 @@
 		{ title: '2', content: '2', isOpen: false },
 		{ title: '3', content: '3', isOpen: false }
 	];
+
+	let html = $state(`<div>테스트1</div>`);
+
+	// let width;
+	// let height;
+	// console.log(width, height);
+
+	/** @type {HTMLCanvasElement} */
+	// let canvas;
+
+	// $effect(() => {
+	// 	const ctx = canvas.getContext('2d');
+	// 	drawStuff(ctx);
+	// });
 </script>
 
 props는 보통 부모에서 자식으로 밖에 불가능하지만<br /> :bind를 사용하여 자식에서 부모로 보내는
@@ -34,7 +48,18 @@ props는 보통 부모에서 자식으로 밖에 불가능하지만<br /> :bind�
 <br />
 <Details options={options2} />
 
-
 <PropsButtonRender>테스트</PropsButtonRender>
+
+<div contenteditable="true" bind:innerHTML={html}></div>
+
+<!-- <div class="box" bind:offsetWidth={width} bind:offsetHeight={height}></div> -->
+
+<!-- <canvas bind:this={canvas} /> -->
+
 <style>
+	/* .box {
+		background-color: red;
+		width: 100px;
+		height: 100px;
+	} */
 </style>
