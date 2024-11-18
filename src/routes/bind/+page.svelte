@@ -55,7 +55,7 @@ props는 보통 부모에서 자식으로 밖에 불가능하지만<br /> :bind�
 <!-- <div class="box" bind:offsetWidth={width} bind:offsetHeight={height}></div> -->
 
 <!-- <canvas bind:this={canvas} /> -->
-
+<a href="/use">15단계</a>
 <style>
 	/* .box {
 		background-color: red;
