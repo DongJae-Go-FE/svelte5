@@ -21,3 +21,5 @@
 
 
 <div use:myaction>...</div>
+
+<a href="/style">16단계</a>
