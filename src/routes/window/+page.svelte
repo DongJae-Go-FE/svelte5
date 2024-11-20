@@ -15,6 +15,12 @@ window.addEventListener
 <div></div>
 <svelte:window onkeydown={handleKeydown} bind:scrollY={y} />
 
+문서
+<!-- <svelte:document onvisibilitychange={handleVisibilityChange} use:someAction /> -->
+바디
+<!-- <svelte:body onmouseenter={handleMouseenter} onmouseleave={handleMouseleave} use:someAction /> -->
+<a href="/head">18단계</a>
+
 <style>
 	div {
 		height: 200dvh;
